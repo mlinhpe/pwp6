@@ -17,7 +17,7 @@ class Home extends Component {
             <div className="Home">
                 <Header/>
                 <div className="text">
-                    {this.renderText("Hi. I'm Mai Linh.", "HiText")}
+                    {this.renderText("Hi. I'm Mai Linh.", "IntroText")}
                 </div>
             </div>
         );
