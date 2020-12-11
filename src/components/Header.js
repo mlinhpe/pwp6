@@ -19,6 +19,7 @@ class Header extends Component {
                 {this.renderTab("Home", "Tab")}
                 {this.renderTab("About", "Tab")}
                 {this.renderTab("Resume", "Tab")}
+                {this.renderTab("Works", "Tab")}
                 {this.renderTab("Contact", "Tab")}
             </div>
         );

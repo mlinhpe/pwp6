@@ -1,28 +1,50 @@
 .Home {
   background-color: #132038;
-  width: auto;
-  height: 2000px;
+  background-image: linear-gradient(#5e52ff, #022158);
+  height: 100vh;
 }
 
 .Header {
-  background-color: #132038;
-  text-align: center;
-  max-width: auto;
+  background-color: transparent;
+  text-align: right;
+  margin-right: 50px;
+  width: auto;
   font-size: 15px;
-  align-self: center;
 }
 
 .Tab {
   font-size: 20px;
   text-align: center;
-  color: #f9fafc;
+  color: #faf9fc;
   background-color: transparent;
   border: None;
   height: 50px;
-  margin: 5px;
+  margin: 9px;
+  margin-top: 14px;
 }
 
 .IntroText {
-  font-size: 65px;
+  text-align: center;
+  font-size: 75px;
   color: #e7ecf7;
+  width: auto;
+}
+
+.DescriptionText {
+  font-size: 25px;
+  color: #aedbfa;
+  text-align: center;
+  width: auto;
+}
+
+.IntroTextField {
+  text-align: center;
+  margin-top: 280px;
+  width: auto;
+}
+
+.DescriptionTextField {
+  text-align: center;
+  margin-top: 20px;
+  width: auto;
 }

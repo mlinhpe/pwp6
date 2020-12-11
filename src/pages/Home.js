@@ -16,8 +16,11 @@ class Home extends Component {
         return (
             <div className="Home">
                 <Header/>
-                <div className="text">
-                    {this.renderText("Hi. I'm Mai Linh.", "IntroText")}
+                <div className="IntroTextField">
+                    {this.renderText("Hi, I'm Mai Linh.", "IntroText")}
+                </div>
+                <div className="DescriptionTextField">
+                    {this.renderText("Data Engineer | Scala Developer | Computer Linguistics Graduate", "DescriptionText")}
                 </div>
             </div>
         );
