@@ -1,7 +1,12 @@
+
+/* css for Home page*/
 .Home {
   background-color: #132038;
-  background-image: linear-gradient(#5e52ff, #022158);
+  background-image: linear-gradient(#123070, #7fcff5);
   height: 100vh;
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-y: scroll;
 }
 
 .Header {
@@ -9,42 +14,92 @@
   text-align: right;
   margin-right: 50px;
   width: auto;
-  font-size: 15px;
 }
 
 .Tab {
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
-  color: #faf9fc;
+  color: #fcf9fc;
   background-color: transparent;
   border: None;
   height: 50px;
   margin: 9px;
   margin-top: 14px;
+  font-weight: 100;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .IntroText {
   text-align: center;
-  font-size: 75px;
-  color: #e7ecf7;
+  font-size: 90px;
+  font-weight: 200;
+  color: #fdfbfd;
   width: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: transparent;
 }
 
 .DescriptionText {
-  font-size: 25px;
-  color: #aedbfa;
+  font-size: 28px;
+  color: #dcecf8;
   text-align: center;
   width: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: transparent;
 }
 
 .IntroTextField {
   text-align: center;
   margin-top: 280px;
   width: auto;
+  background-color: transparent;
 }
 
 .DescriptionTextField {
   text-align: center;
   margin-top: 20px;
   width: auto;
+  background-color: transparent;
+}
+
+/* css for About page */
+
+.About {
+  width: auto;
+  align-content: center;
+  align-items: center;
+  background-color: transparent;
+  text-align: center;
+}
+
+.AboutHeader {
+  text-align: center;
+  margin-top: 100px;
+  width: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 200;
+  background-color: transparent;
+  color: white;
+}
+
+.AboutText {
+  text-align: center;
+  margin-top: 10px;
+  background-color: transparent;
+  font-size: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  color: rgb(6, 42, 83);
+}
+
+.DownloadButton {
+  font-weight: 550;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  background-color: rgb(33, 101, 150);
+  border: None;
+  padding: 4px;
+  margin: 20px;
 }

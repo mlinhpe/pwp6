@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Header } from '../components/Header';
 import { Text } from '../components/Text';
+import { About } from './About';
 import '../App.css'
 
 
@@ -21,8 +22,11 @@ class Home extends Component {
                 </div>
                 <div className="DescriptionTextField">
                     {this.renderText("Data Engineer | Scala Developer | Computer Linguistics Graduate", "DescriptionText")}
-                </div>
+                </div>   
+            <div>
+                <About/>
             </div>
+            </div> 
         );
     }
 }
