@@ -1,0 +1,32 @@
+/* css for About page */
+
+.About {
+    width: auto;
+    align-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  .AboutText {
+    text-align: center;
+    margin-top: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 450;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: #0e275c;
+  }
+  
+  .DownloadButton {
+    font-weight: 550;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    background-color: rgb(64, 134, 190);
+    border: None;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin: 40px;
+  }

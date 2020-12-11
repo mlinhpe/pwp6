@@ -1,0 +1,39 @@
+/* css for Resume page */
+
+.Resume {
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  .ResumeSection {
+    height: 400px;
+  }
+  
+  .ResumeTitleField {
+    width: 35%;
+  }
+  
+  .ResumeTextField {
+    width: 70%;
+  }
+  
+  .ResumeTitle {
+    margin-top: 50px;
+    float: left;
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    border-bottom: 3px solid rgb(219, 248, 150);
+    padding-bottom: 5px;
+    margin-left: 400px;
+  }
+  
+  .ResumeSubTitle {
+    margin-top: 100px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .ResumeText {
+    margin-top: 30px;
+  }

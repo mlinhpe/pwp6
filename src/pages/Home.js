@@ -2,7 +2,13 @@ import React, { Component } from 'react';
 import { Header } from '../components/Header';
 import { Text } from '../components/Text';
 import { About } from './About';
-import '../App.css'
+import { Resume } from './Resume';
+import { Contact } from './Contact';
+import '../styles/App.css'
+import '../styles/Contact.css'
+import '../styles/Home.css'
+import '../styles/About.css'
+import '../styles/Resume.css'
 
 
 
@@ -25,6 +31,12 @@ class Home extends Component {
                 </div>   
             <div>
                 <About/>
+            </div>
+            <div>
+                <Resume/>
+            </div>
+            <div>
+                <Contact/>
             </div>
             </div> 
         );
