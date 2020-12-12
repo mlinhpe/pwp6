@@ -9,7 +9,7 @@
   }
   
   input[type=submit] {
-    background-color: rgb(80, 135, 238);
+    background-color: rgb(117, 103, 241);
     color: white;
     padding: 10px 16px;
     border: None;
@@ -51,7 +51,7 @@
     text-align: left;
   }
   
-  textarea {
+  .textarea {
     height: 300px;
     width: 75%;
     padding-top: 30px;

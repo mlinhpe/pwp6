@@ -14,38 +14,38 @@ class Contact extends Component {
                 <div className="Title">
                     Contact Form
                 </div>
-                <form action="/action_page.php">
+                <form action="http://localhost:10011/mail" method="POST">
                     <div className="formSection">
                         <div className="Label">
                             Name
                         </div>
-                        <input className="Input" type="text" />
+                        <input className="Input" type="text" name="name"/>
                     </div>
 
                     <div className="formSection">
                         <div className="Label">
                             Email
                     </div>
-                        <input className="Input" type="text" />
+                        <input className="Input" type="text" name="email"/>
                     </div>
 
                     <div className="formSection">
                         <div className="Label">
                             Subject
                     </div>
-                        <input className="Input" type="text" />
+                        <input className="Input" type="text" name="subject"/>
                     </div>
 
                     <div className="formSection">
                         <div className="Label">
                             Message
                         </div>
-                        <textarea id="message">
-                        </textarea>
+                        <input className="textarea" id="message" name="message">
+                        </input>
                     </div>
 
                     <div className="formSection">
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Submit" name="submit"/>
                     </div>
                 </form>
             </div>
