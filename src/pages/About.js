@@ -20,7 +20,7 @@ class About extends Component {
                     About Me
                 </div>
                 <div className="AboutText">
-                    My Name is Mai Linh Pham and I am a Data Engineer and Scala Developer. I love creativity and taking up new challenges.
+                    My name is Mai Linh Pham and I am a Data Engineer and Scala Developer. I love creativity and taking up new challenges.
                     Technology inspires me and I am always enthusiastic to learn something new!
                 </div>
                 <div className="Title">

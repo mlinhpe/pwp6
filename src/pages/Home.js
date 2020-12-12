@@ -27,7 +27,7 @@ class Home extends Component {
                     {this.renderText("Hi, I'm Mai Linh.", "IntroText")}
                 </div>
                 <div className="DescriptionTextField">
-                    {this.renderText("Data Engineer | Scala Developer | Computer Linguistics Graduate", "DescriptionText")}
+                    {this.renderText("Data Engineer | Scala Developer | Computational Linguistics Graduate", "DescriptionText")}
                 </div>   
             <div>
                 <About/>
