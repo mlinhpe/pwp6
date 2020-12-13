@@ -21,23 +21,31 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="Home">
+            <div className="cv">
                 <Header/>
+                <section id="home_section">
+                </section>
+                <div className="Home">
                 <div className="IntroTextField">
                     {this.renderText("Hi, I'm Mai Linh.", "IntroText")}
                 </div>
                 <div className="DescriptionTextField">
                     {this.renderText("Data Engineer | Scala Developer | Computational Linguistics Graduate", "DescriptionText")}
                 </div>   
-            <div>
-                <About/>
-            </div>
-            <div>
-                <Resume/>
-            </div>
-            <div>
-                <Contact/>
-            </div>
+                </div>
+            <section id="about_section">
+            </section>    
+            <About/>
+            
+            
+            <section id="resume_section">
+            <Resume/>
+            </section>
+
+            <section id="contact_section">
+            </section>
+            <Contact/>
+
             </div> 
         );
     }

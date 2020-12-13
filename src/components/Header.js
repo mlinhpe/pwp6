@@ -9,18 +9,18 @@ class Header extends Component {
         };
     }
 
-    renderTab(tabName, cN) {
-        return <Tab value={tabName} className={cN} />;
+    renderTab(tabName, cN, section) {
+        return <Tab value={tabName} className={cN} section={section}/>;
     }
     
     render() {
         return (
             <div className="Header">
-                {this.renderTab("Home", "Tab")}
-                {this.renderTab("About", "Tab")}
-                {this.renderTab("Resume", "Tab")}
-                {this.renderTab("Works", "Tab")}
-                {this.renderTab("Contact", "Tab")}
+                {this.renderTab("Home", "Tab", "#home_section")}
+                {this.renderTab("About", "Tab", "#about_section")}
+                {this.renderTab("Resume", "Tab", "#resume_section")}
+                {this.renderTab("Works", "Tab", "#works_section")}
+                {this.renderTab("Contact", "Tab", "#contact_section")}
             </div>
         );
     }

@@ -4,9 +4,9 @@ class Tab extends Component {
 
     render() {
         return (
-            <button className={"Tab " + this.props.className}> 
+            <a className={this.props.className} href={this.props.section}> 
                 {this.props.value}
-            </button>
+            </a>
         );
     }
 }
