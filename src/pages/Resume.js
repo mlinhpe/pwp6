@@ -55,7 +55,7 @@ class Resume extends Component {
                         {this.renderSkill("20", "ResumeSkill", "Python | NLP")}<br></br>
                         {this.renderSkill("45", "ResumeSkill", "SQL")}<br></br>
                         {this.renderSkill("25", "ResumeSkill", "Java")}<br></br>
-                        {this.renderSkill("15", "ResumeSkill", "JavaScript | CSS | HTML")}<br></br>
+                        {this.renderSkill("10", "ResumeSkill", "JavaScript | CSS | HTML")}<br></br>
                     </div>
                 </div>
             </div>
