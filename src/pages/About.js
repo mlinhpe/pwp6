@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 import { DownloadButton } from '../components/DownloadButton';
 
 class About extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            value: props.value,
-        };
-    }
-
+    
     renderDownloadButton(buttonName, cN) {
         return <DownloadButton value={buttonName} className={cN} />;
     }

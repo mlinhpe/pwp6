@@ -14,7 +14,7 @@ class Contact extends Component {
                 <div className="Title">
                     Contact Form
                 </div>
-                <form action="http://localhost:10011/mail" method="POST">
+                <form action="/mail" method="POST">
                     <div className="formSection">
                         <div className="Label">
                             Name
